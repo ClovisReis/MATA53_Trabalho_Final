@@ -19,7 +19,7 @@ def Compara(vertice):
 
 def geraGrafo(conexaoresultado,custo):
     g = nx.Graph()
-    print(conexaoresultado)
+    #print(conexaoresultado)
     pesos = []
     for val in conexaoresultado:
         pesos.append((val[1],val[2],val[0]))
@@ -85,9 +85,9 @@ def tratamentoEntrada():
 
 
 def limpar():
-    print(entradas)
+    #print(entradas)
     entradas.clear()
-    print(entradas)
+    #print(entradas)
     for widget in frame_b.winfo_children():
         widget.destroy()
 
@@ -96,11 +96,14 @@ def arrumarEntradas():
 
 
 
+
     messagebox.showinfo('Sucesso','Conexão Adicionada!')
-    entradas.append((int(e3.get()),e1.get(),e2.get()))
+
+    peso_replaced = e3.get().replace(",", ".")
+    entradas.append((float(peso_replaced),e1.get(),e2.get()))
     texto = ""
 
-    texto = "Peso = " + str(e3.get()) + " | Vértice 1 = " + str(e1.get()) + " | Vértice 2 = " + str(e2.get())
+    texto = "Peso = " + str(peso_replaced) + " | Vértice x = " + str(e1.get()) + " | Vértice y = " + str(e2.get())
     tk.Label(master=frame_b, text= texto).grid(row=4*len(entradas))
     
     
@@ -118,8 +121,8 @@ window = tk.Tk()
 frame_a = tk.Frame()
 frame_b = tk.Frame()
 
-tk.Label(master=frame_a, text="Vértice 1").grid(row=0)
-tk.Label(master=frame_a, text="Vértice 2").grid(row=1)
+tk.Label(master=frame_a, text="Vértice x").grid(row=0)
+tk.Label(master=frame_a, text="Vértice y").grid(row=1)
 tk.Label(master=frame_a, text="Peso da aresta").grid(row=2)
 
 e1 = tk.Entry(master=frame_a)
@@ -143,7 +146,7 @@ tk.Button(master=frame_a, text='Gerar Grafo', command=tratamentoEntrada).grid(ro
                                                                 column=2, 
                                                                 sticky=tk.W, 
                                                                 pady=0)
-
+window.title("Kruskal")
 frame_a.pack()
 frame_b.pack()
 window.geometry('500x400')
