@@ -9,13 +9,13 @@ Com o uso de uma estrutura de dados eficiente, o algoritmo de Kruskal possui com
 
 ## Tutorial
 
-1 - Tenha o python instalado na maquina
-2 - Crie um arquivo requirements.txt e cole os itens abaixo:
+* Tenha o python instalado na maquina
+* Crie um arquivo requirements.txt e cole os itens abaixo:
 tk
 matplotlib
 networkx
-3 - Execute o comando pip install -r requirements.txt
-4 - Execute o arquivo KruskalFinal.py com python KruskalFinal.py
+* Execute o comando pip install -r requirements.txt
+* Execute o arquivo KruskalFinal.py com python KruskalFinal.py
 
 
 ## Bibliotecas utilizadas no trabalho
