@@ -15,7 +15,7 @@ tk<br />
 matplotlib<br />
 networkx<br />
 * Execute o comando pip install -r requirements.txt
-* Execute o arquivo KruskalFinal.py com python KruskalFinal.py
+* Execute o arquivo KruskalFinal.py com o comando: python KruskalFinal.py
 
 
 ## Bibliotecas utilizadas no trabalho
