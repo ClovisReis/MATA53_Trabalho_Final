@@ -10,10 +10,6 @@ Com o uso de uma estrutura de dados eficiente, o algoritmo de Kruskal possui com
 ## Tutorial
 
 * Tenha o python instalado na maquina
-* Crie um arquivo requirements.txt e cole os itens abaixo:<br />
-tk<br />
-matplotlib<br />
-networkx<br />
 * Execute o comando pip install -r requirements.txt
 * Execute o arquivo KruskalFinal.py com o comando: python KruskalFinal.py
 
