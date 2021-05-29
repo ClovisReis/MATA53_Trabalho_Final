@@ -39,7 +39,7 @@ Características:
 
 ## Corretude
 
-Seja A(T) uma árvore geradora mínima de retorno do algoritmo de Kruskal e T(T*) uma árvore geradora mínima mais próxima de A, chegaremos a conclusão que A = T. Vamos assumir que A != T.
+Seja A uma árvore geradora mínima de retorno do algoritmo de Kruskal e T uma árvore geradora mínima mais próxima de A, chegaremos a conclusão que A = T. Vamos assumir que A != T.
 
 Considerando a sequencia e1,e2,...em e seja e = ei a primeira aresta que está em A e não está em T, sendo assim haverá um ciclo C de T + e, já que não há ciclos em A, há uma aresta x que pertence a E(C - e) que não existem em A, logo, x pertence E(T) - E(A).
 
