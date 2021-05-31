@@ -6,13 +6,18 @@ O algoritmo de Kruskal é um algoritmo em teoria dos grafos que busca uma árvor
 
 Com o uso de uma estrutura de dados eficiente, o algoritmo de Kruskal possui complexidade de tempo igual a O (m log n), onde m representa o número de arestas e n o número de vértices.
 
+[Fonte](https://pt.wikipedia.org/wiki/Algoritmo_de_Kruskal)
 
 ## Tutorial
 
-* Tenha o python instalado na maquina
+* Tenha o python instalado na maquina(No caso de duvidas acessar o link: [Instalando Python](https://realpython.com/installing-python/)). 
 * Execute o comando pip install -r requirements.txt
 * Execute o arquivo KruskalFinal.py com o comando: python KruskalFinal.py
 
+Observações: 
+
+- Caso ocorra problemas na instalação da biblioteca tkinter, execute o comando: sudo apt-get install python3-tk
+- Se ainda houver erros na instalação do tkinter, por favor siga o tutorial de instalação nesse link: [Instalando Tk](https://tkdocs.com/tutorial/install.html)
 
 ## Bibliotecas utilizadas no trabalho
 
