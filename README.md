@@ -16,7 +16,7 @@ Com o uso de uma estrutura de dados eficiente, o algoritmo de Kruskal possui com
 
 Observações: 
 
-- Caso ocorra problemas na instalação da biblioteca tkinter, execute o comando: sudo apt-get install python3-tk
+- Caso ocorra problemas na instalação da biblioteca tkinter no linux, execute o comando: sudo apt-get install python3-tk
 - Se ainda houver erros na instalação do tkinter, por favor siga o tutorial de instalação nesse link: [Instalando Tk](https://tkdocs.com/tutorial/install.html)
 
 ## Bibliotecas utilizadas no trabalho
